@@ -5,3 +5,31 @@ body {background: #f0f;
 img{
 	width: 320px;
 }
+/* Your Styling */
+
+.container{
+	margin: 0 auto;
+	width: 50%;
+
+}
+
+h1, h2{
+	font-family: 'Old Standard TT', serif;
+	text-transform: uppercase;
+
+}
+
+p, li {
+	font-family: 'Old Standard TT', serif;
+}
+
+.dropcap{
+	background: aqua;
+	color: white;
+	font-size: 5em;
+	float: left;
+	padding: .25em;
+	margin: .25em;
+	
+
+}
