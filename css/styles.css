@@ -1,15 +1,17 @@
-body {background: #f0f;	
 
-}
+/*Back ground colors for .bio and .home*/
 
 .home {
 	background-color: #ADEAEA
+}
 
+.bio {
+	background-color: #ADEAEA;
 
 }
 
 img{
-	width: 320px;
+	width: 250px;
 }
 /* Your Styling */
 
