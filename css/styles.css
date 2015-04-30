@@ -1,5 +1,5 @@
 
-/*Back ground colors for .bio and .home*/
+/*Back ground colors for .bio .home and .resume*/
 
 .home {
 	background: #ADEAEA;
@@ -27,6 +27,10 @@ img{
 
 }
 /* Your Styling */
+
+body {
+	line-height: 30px;
+}
 
 .container{
 	margin: 0 auto;
