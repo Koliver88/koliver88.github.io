@@ -2,7 +2,7 @@
 /*Back ground colors for .bio and .home*/
 
 .home {
-	background-color: #ADEAEA
+	background: url("../img/backgroundwood.jpg");
 }
 
 .bio {
