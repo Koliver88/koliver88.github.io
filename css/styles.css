@@ -14,7 +14,7 @@
 /*Back ground colors for .bio .home and .resume*/
 
 .home {
-	background: #ADEAEA;
+	background: url (../img/woodbackground.jpg);
 }
 
 .bio {
