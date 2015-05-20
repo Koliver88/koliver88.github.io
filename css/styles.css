@@ -18,7 +18,7 @@
 }
 
 .bio {
-	background-color: #ADEAEA;
+	background-color:;
 
 }
 
@@ -63,6 +63,7 @@ p, li {
 /* Links for home page styling */
 
 a {
-	text-decoration: none;	
+	text-decoration: none;
+	float: left;
 	
 }
