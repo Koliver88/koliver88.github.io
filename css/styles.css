@@ -60,9 +60,9 @@ p, li {
 	font-family: 'Old Standard TT', serif;
 }
 
-/* Links for home page styling */
+/* Navigation Styling */
 
-a {
+nav {
 	text-decoration: none;
 	float: left;
 	
