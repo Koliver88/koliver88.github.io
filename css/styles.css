@@ -63,7 +63,7 @@ p, li {
 
 /* Navigation Styling */
 
-nav {
+li a {
 	text-decoration: none;
 	display: inline-block;
 	
