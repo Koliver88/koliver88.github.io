@@ -1,55 +1,7 @@
 /*......Get CSS organized......*/
 
-/* Homepage styling*/
+/* ...........Universal styling ............*/
 
-/* Bio.html styling */
-
-/* Resume.html styling */
-
-/* equestrianlife.html styling */
-
-/* huntingandoutdoors.html styling*/  
-
-
-/*Back ground colors for .bio .home and .resume*/
-
-.home {
-	background-image: url("https://scontent-sea1-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/10408986_973156236036248_1526117384197792636_n.jpg?oh=fa88bdbd4f0942eb61333cd259002a27&oe=560A7BB9");
-	background-repeat: no-repeat;
-	background-position: center;
-}
-.bio {
-	background-color:;
-
-}
-
-.bio h1 {
-
-	text-align: center;
-	text-decoration: underline;
-	margin-bottom: 100px;
-	padding: 10px;
-	border: 10px;
-	background-color: ;
-
-
-
-}
-img{
-	width: 250px;
-
-}
-/* Your Styling */
-
-body {
-	line-height: 30px;
-}
-
-.container{
-	margin: 0 auto;
-	width: 50%;
-
-}
 
 h1, h2{
 	font-family: 'Old Standard TT', serif;
@@ -60,6 +12,7 @@ h1, h2{
 p, li {
 	font-family: 'Old Standard TT', serif;
 }
+
 
 /* Navigation Styling */
 
@@ -77,4 +30,52 @@ a {
 	padding: .25em;
 	
 }	
-	
+
+/* Homepage styling*/
+.home {
+	background-image: url("../img/engagementphoto.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+
+}
+
+/* Bio styling*/
+.bio {
+	background-color: ;
+
+}
+
+.bio h1 {
+	text-align: center;
+	text-decoration: underline;
+	margin-bottom: 100px;
+	padding: 10px;
+	border: 10px;
+	background-color: ;
+}
+
+}
+img {
+	width: 100px;
+
+}
+
+/* Resume.html styling */
+
+/* equestrianlife.html styling */
+
+/* huntingandoutdoors.html styling*/  
+
+
+body {
+	line-height: 30px;
+}
+
+.container{
+	margin: 0 auto;
+	width: 50%;
+
+}
+
+
