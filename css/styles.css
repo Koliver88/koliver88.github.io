@@ -71,6 +71,10 @@ li {
 a {
 	
 	display: inline-block;
+	text-align: center;
+	font-size: 1em;
+	margin: .5em;
+	padding: .25em;
 	
 }	
 	
