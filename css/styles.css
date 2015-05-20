@@ -63,8 +63,6 @@ p, li {
 
 /* Navigation Styling */
 
-div {
-	text-decoration: none;
+li {
+	list-style: none;
 	display: inline-block;
-	
-}
