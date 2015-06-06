@@ -1,3 +1,4 @@
+
 /*......Get CSS organized......*/
 
 /* ...........Universal styling ............*/
@@ -17,20 +18,33 @@ p, li {
 /* Navigation Styling */
 
 li {
-	list-style: none;
-	display: inline-block;
+  
+  list-style: none;
+  display: inline-block;
 }
 
+/* first frame */
 a {
-	
-	display: inline-block;
-	text-align: center;
-	font-size: 1em;
-	margin: .5em;
-	padding: .25em;
-	text-decoration: none;
-	
-	
+  color: #33232A;
+  display: inline-block;
+ 
+  /* hack for centering the links in the background */
+  
+  height: 1em;
+  line-height: 1em;
+  padding: 1em;
+  text-decoration: none;
+  text-transform: uppercase; 
+  
+  transition: height .50s, border-bottom 1s;
+}
+
+/* last Frame */
+
+a:hover {
+  border-bottom: .25em #33232A double;
+  height: 1em;
+  
 }	
 
 /* Homepage styling*/
@@ -40,6 +54,11 @@ a {
 	background-position: center;
 	background-size: 100%;
 
+}
+
+/*Specificity???*/
+.gridcontainer{
+  font-size: 20px
 }
 
 /* Bio styling*/
@@ -63,11 +82,11 @@ img {
 
 }
 
-/* Resume.html styling */
+/* Bio.html styling */
 
-/* equestrianlife.html styling */
+/* My Life.html styling */
 
-/* huntingandoutdoors.html styling*/  
+/* Resune.html styling*/  
 
 
 body {
@@ -79,5 +98,3 @@ body {
 	width: 50%;
 
 }
-
-
