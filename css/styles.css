@@ -53,7 +53,11 @@ a:hover {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100%;
+}
 
+.blankspace {
+	margin: 300px 150px;
+	padding: 50px 50px;
 }
 
 /*Specificity???*/
