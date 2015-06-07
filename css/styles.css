@@ -23,6 +23,13 @@ p, li {
   margin: 50px 50px;
 }
 
+/*Specificity???*/
+.footer {
+  font-size: 20px
+  text-decoration: none;
+  
+}
+
 /* first frame */
 a {
   color: #33232A;
@@ -60,10 +67,6 @@ a:hover {
 	padding: 50px 50px;
 }
 
-/*Specificity???*/
-.gridcontainer{
-  font-size: 20px
-}
 
 /* Bio styling*/
 .bio {
