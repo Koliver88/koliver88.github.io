@@ -17,21 +17,10 @@ p, li {
 
 /* Navigation Styling */
 
-.navigation {
-	width: 750px;
-	margin:0 auto;
-	list-style:none;
-}
-
-.navigation li {
-	float:left;
-}
-
-.navigation a {
-	display:block;
-	text-align:center;
-	width:150px; /* fixed width */
-	text-decoration:none; 
+li {
+  display: inline-block;
+  list-style: none;
+  margin: 50px 50px;
 }
 
 /* first frame */
