@@ -20,14 +20,17 @@ p, li {
 .navigation li {
   display: inline-block;
   list-style: none;
-  margin: 50px 50px;
+  margin: 100px 100px;
+  padding: 10px 10px;
+  
 }
 
 /*Specificity???*/
 .footer {
   font-size: 20px
-  text-decoration: none;
-  
+  list-style: none;
+  margin: 100px 100px;
+  padding: 10px 10px;
 }
 
 /* first frame */
