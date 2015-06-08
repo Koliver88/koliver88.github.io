@@ -2,7 +2,10 @@
 /*......Get CSS organized......*/
 
 /* ...........Universal styling ............*/
-
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
 
 h1, h2{
 	font-family: 'Old Standard TT', serif;
@@ -14,10 +17,18 @@ p, li {
 	font-family: 'Old Standard TT', serif;
 }
 
+body {
+	background-attachment: fixed;
+	background-image: url("../img/homepage2.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+
+}
 
 /* Navigation Styling */
 
-.home li {
+nav li {
   display: inline-block;
   list-style: none;
   margin: 100px 100px;
@@ -28,10 +39,14 @@ p, li {
 /*Specificity???*/
 footer li {
   display: inline-block;
-  font-size: 12px
+  font-size: 12px;
   list-style: none;
   margin: 100px 100px;
   padding: 10px 10px;
+}
+
+footer {
+	position: absolute;
 }
 
 /* first frame */
@@ -50,6 +65,10 @@ a {
   transition: height .50s, border-bottom 1s;
 }
 
+a[href*="facebook"] {
+	color: blue;
+}
+
 /* last Frame */
 
 a:hover {
@@ -60,10 +79,7 @@ a:hover {
 
 /* Homepage styling*/
 .home {
-	background-image: url();
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 100%;
+	
 }
 
 .blankspace {
@@ -87,9 +103,10 @@ a:hover {
 	background-color: ;
 }
 
-}
+
 img {
 	width: 50px;
+	position: center;
 
 }
 
@@ -104,8 +121,17 @@ body {
 	line-height: 30px;
 }
 
-.container{
-	margin: 0 auto;
-	width: 50%;
 
+
+/*
+media queries responive */
+
+@media (min-width: 1px) and (max-width: 1290px)  {
+	.home li {
+  display: inline-block;
+  list-style: none;
+  margin: 75px 75px;
+  padding: 10px 10px;
+  
+}
 }
