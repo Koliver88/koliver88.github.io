@@ -3,7 +3,7 @@
 
 /* ...........Universal styling ............*/
 .container {
-	max-width: 960px;
+	max-width: 1378px;
 	margin: 0 auto;
 }
 
@@ -124,7 +124,7 @@ body {
 
 
 /*
-media queries responive */
+media queries responsive */
 
 @media (min-width: 1px) and (max-width: 1290px)  {
 	.home li {
