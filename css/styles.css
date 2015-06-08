@@ -3,7 +3,7 @@
 
 /* ...........Universal styling ............*/
 .container {
-	max-width: 1378px;
+	max-width: 1700px;
 	margin: 0 auto;
 }
 
@@ -17,7 +17,7 @@ p, li {
 	font-family: 'Old Standard TT', serif;
 }
 
-body {
+.home {
 	background-attachment: fixed;
 	background-image: url("../img/homepage2.jpg");
 	background-repeat: no-repeat;
@@ -34,6 +34,11 @@ nav li {
   margin: 100px 100px;
   padding: 10px 10px;
   
+}
+
+img .logo {
+	width: 300px;
+
 }
 
 /*Specificity???*/
@@ -90,7 +95,7 @@ a:hover {
 
 /* Bio styling*/
 .bio {
-	background-color: ;
+	background-color: #E6E2BA;
 
 }
 
@@ -110,13 +115,17 @@ img {
 
 }
 
-/* Bio.html styling */
-
 /* My Life.html styling */
 
-/* Resune.html styling*/  
+.mylife {
+	background: #E0ACE0
+}
 
+/* Resume.html styling*/  
 
+.resume {
+	background: #95C4B9
+}
 body {
 	line-height: 30px;
 }
@@ -133,5 +142,10 @@ media queries responsive */
   margin: 75px 75px;
   padding: 10px 10px;
   
+  /*.home li {
+  display: block;
+  list-style: none;
+  margin: auto;
+  padding: 20px 10px;*/
 }
 }
