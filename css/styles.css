@@ -7,7 +7,7 @@
 	margin: 0 auto;
 }
 
-.group {
+.group:after {
 	display: table;
 	content: '';
 	clear: both;
@@ -27,8 +27,9 @@ p, li {
 	background-attachment: fixed;
 	background-image: url("../img/homepageimage.jpg");
 	background-repeat: no-repeat;
-	background-position: center;
-	background-size: contain;
+	background-position: 20% 100%;
+	/*top: 100px;*/
+	/*background-size: 100%;*/
 
 }
 
@@ -55,7 +56,8 @@ nav li {
 }
 
 header {
-	margin-left: 350px;
+	width: 983px;
+	margin: 0 auto;
 }
 /*Specificity???*/
 footer li {
@@ -67,8 +69,8 @@ footer li {
 }
 
 footer {
-	position: absolute;
-	margin-left: 350px;
+	width: 1000px;
+	margin: 0 auto;
 }
 
 /* first frame */
@@ -165,7 +167,7 @@ img {
   padding: 10px 10px;
   */
   ul {
-  	padding-left: 20px; 
+  	padding-left: 1.25em; 
   }
 
   .home li {
@@ -186,9 +188,14 @@ footer {
 }
 }
 
-@media (min-width: 1px) and (max-width: 860px)  {
+@media (min-width: 1px) and (max-width: 1500px)  {
+
+/*.home {
+
+	background-position: 40% 100%, center;
 
 
+}*/
 
 
 }
