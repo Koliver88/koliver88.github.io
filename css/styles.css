@@ -29,8 +29,7 @@ p, li {
 	background-image: url("../img/homepageimage.jpg");
 	background-repeat: no-repeat;
 	background-position: 20% 100%;
-	/*top: 100px;*/
-	/*background-size: 100%;*/
+	
 
 }
 
@@ -42,18 +41,17 @@ body {
 
 
 nav li {
-  display: inline-block;
-  list-style: none;
-  margin: 30px 30px;
-  padding: 5px 5px;
-  position: relative;
+	display: inline-block;
+	list-style: none;
+	margin: 30px 30px;
+	padding: 5px 5px;
+	position: relative;
 
-  
+
 }
 
 .logo > img {
-	/*width: 200px;
-*/
+
 	width: 269px 
 }
 
@@ -61,14 +59,15 @@ header {
 	width: 1056px;
 	margin: 0 auto;
 }
-/*Specificity???*/
+
 footer li {
-  display: inline-block;
-  font-size: 12px;
-  list-style: none;
-  margin: 100px 100px;
-  padding: 10px 10px;
-  	background: rgba(255,255,255,.5);
+	display: inline-block;
+	font-size: 12px;
+	list-style: none;
+	margin: 15px 100px;
+	padding: 0 0;
+	background: rgba(255,255,255,.5);
+	border-radius: 25px;
 }
 
 footer {
@@ -77,32 +76,39 @@ footer {
 
 }
 
-/* first frame */
-a {
-  color: #33232A;
-  display: inline-block;
- 
-  /* hack for centering the links in the background */
-  
-  /*height: 1em;*/
-  line-height: 1em;
-  padding: 1em;
-  text-decoration: none;
-  text-transform: uppercase; 
-  
-  transition: height .50s, border-bottom 1s;
+.photocredit {
+	display: inline-block;
+	font-size: 12px;
+	list-style: none;
+	padding: 0 0;
+	background: rgba(255,255,255,.5);
+	border-radius: 25px;
+	width: 275px;
+	margin: 0 auto;
+	margin-left: 324px;
 }
 
-a[href*="facebook"] {
-	color: blue;
+/* first frame */
+a {
+	color: #33232A;
+	display: inline-block;
+
+
+	/*height: 1em;*/
+	line-height: 1em;
+	padding: 1em;
+	text-decoration: none;
+	text-transform: uppercase; 
+
+	transition: height .50s, border-bottom 1s;
 }
 
 /* last Frame */
 
 a:hover {
-  border-bottom: .25em #33232A double;
-  height: 1em;
-  
+	border-bottom: .25em #33232A double;
+	height: 1em;
+
 }	
 
 a.logo:hover {
@@ -124,7 +130,13 @@ a.logo:hover {
 
 
 /* Bio styling*/
+
 .bio {
+	background-image: url("../img/tealwood.jpg");
+
+}
+
+.fulldiv {
 	background-color: #E6E2BA;
 
 }
@@ -149,8 +161,8 @@ a.logo:hover {
 }
 
 .bioparagraph {
-  padding: 110px;
-  margin-top: 139px;
+	padding: 110px;
+	margin-top: 139px;
 
 }
 
@@ -162,47 +174,47 @@ a.logo:hover {
 	background-image: url(http://www.transparenttextures.com/patterns/tileable-wood.png);
 
 
-/* Resume.html styling*/  
+	/* Resume.html styling*/  
 
-.resume {
-	background: #95C4B9;
-}
+	.resume {
+		background: #95C4B9;
+	}
 
 
 
-/* media queries responsive */
+	/* media queries responsive */
 
-@media (min-width: 1px) and (max-width: 1290px)  {
+	@media (min-width: 1px) and (max-width: 1290px)  {
 
-  ul {
-  	padding-left: 1.25em; 
-  }
+		ul {
+			padding-left: 1.25em; 
+		}
 
-  .home li {
-  list-style: none;
-  margin: -9px;
-  padding: 0 0;
-}
+		.home li {
+			list-style: none;
+			margin: -9px;
+			padding: 0 0;
+		}
 
-footer {
-	left: 133px;
+		footer {
+			left: 133px;
 
-}
+		}
 
-.logo {
-	width: 175px;
-	padding: 0 0;
-}
-}
+		.logo {
+			width: 175px;
+			padding: 0 0;
+		}
+	}
 
-@media (min-width: 1px) and (max-width: 1500px)  {
+	@media (min-width: 1px) and (max-width: 1500px)  {
 
 /*.home {
 
 	background-position: 40% 100%, center;
 
 
-}*/
+	}*/
 
 
 }
