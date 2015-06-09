@@ -23,6 +23,7 @@ p, li {
 	font-family: 'Old Standard TT', serif;
 }
 
+
 .home {
 	background-attachment: fixed;
 	background-image: url("../img/homepageimage.jpg");
@@ -50,13 +51,14 @@ nav li {
   
 }
 
-.logo {
-	width: 200px;
-
+.logo > img {
+	/*width: 200px;
+*/
+	width: 269px 
 }
 
 header {
-	width: 983px;
+	width: 1056px;
 	margin: 0 auto;
 }
 /*Specificity???*/
@@ -66,11 +68,13 @@ footer li {
   list-style: none;
   margin: 100px 100px;
   padding: 10px 10px;
+  	background: rgba(255,255,255,.5);
 }
 
 footer {
 	width: 1000px;
 	margin: 0 auto;
+
 }
 
 /* first frame */
@@ -80,7 +84,7 @@ a {
  
   /* hack for centering the links in the background */
   
-  height: 1em;
+  /*height: 1em;*/
   line-height: 1em;
   padding: 1em;
   text-decoration: none;
@@ -100,6 +104,10 @@ a:hover {
   height: 1em;
   
 }	
+
+a.logo:hover {
+	border-bottom: 0;
+}
 
 /* Homepage styling*/
 .home {
@@ -131,7 +139,8 @@ a:hover {
 }
 
 
-img {
+.bioimage {
+	display: inline-block;
 	width: 450px;
 	border-radius: 235px;
 	position: relative;
@@ -140,14 +149,18 @@ img {
 }
 
 .bioparagraph {
+  padding: 110px;
+  margin-top: 139px;
 
 }
 
 /* My Life.html styling */
 
 .mylife {
-	background: #E0ACE0;
-}
+	/*background-image: url("../img/bluewood.png");*/
+	background-color: #25636b;
+	background-image: url(http://www.transparenttextures.com/patterns/tileable-wood.png);
+
 
 /* Resume.html styling*/  
 
@@ -160,18 +173,12 @@ img {
 /* media queries responsive */
 
 @media (min-width: 1px) and (max-width: 1290px)  {
-/*	.home li {
-  display: inline-block;
-  list-style: none;
-  margin: 75px 75px;
-  padding: 10px 10px;
-  */
+
   ul {
   	padding-left: 1.25em; 
   }
 
   .home li {
-  display: inline-block;
   list-style: none;
   margin: -9px;
   padding: 0 0;
