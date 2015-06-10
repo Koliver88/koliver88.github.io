@@ -210,9 +210,18 @@ h2 {
 /* Resume.html styling*/  
 
 .resume {
-	background:;
+	background-image: url("../img/tealwood.jpg");
+
 }
 
+.fulldiv {
+	background-color: #E6E2BA;
+	border-radius: 1.25em;
+}
+
+.resumebody {
+	margin-left: 6em;
+}
 
 
 /* media queries responsive */
@@ -247,11 +256,7 @@ h2 {
 a {
 	color: #33232A;
 	display: inline-block;
-
-
-	/*height: 1em;*/
 	line-height: 1em;
-	/*padding: 1em;*/
 	text-decoration: none;
 	text-transform: uppercase; 
 
@@ -274,33 +279,6 @@ a.logo:hover {
 }
 
 @media (min-width: 1px) and (max-width: 995px)  {
-
-
-
-/*.logo {
-	width: 179px;
-	padding: 0 38px;
-}
-
-nav {
-	width: 833px;
-	margin-left: 8em;
-
-}
-
-nav ul {
-	margin: 8em;
-}
-
-.footerfix {
-	margin-left: 10.45em;
-
-}
-
-li {
-	margin-left: 3em;
-	margin-right: 7em;
-}*/
 
 
 
