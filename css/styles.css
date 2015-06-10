@@ -24,11 +24,9 @@ p, li {
 }
 
 
-}
-
 p {
 	line-height: 1.875em;
-	font-size: 2.25em;
+	font-size: 1.15em;
 }
 
 /* Navigation Styling */
@@ -175,17 +173,28 @@ a.logo:hover {
 }
 
 .bioparagraph {
-	padding: 6.875em;
+	padding: 3.875em;
 	margin-top: 8.6875em;
 
 }
 
 /* My Life.html styling */
 
+.equestrian {
+
+}
+
 .mylife {
 	background-image: url("../img/tealwood.jpg");
 
 }
+
+.chaiimage {
+	display: inline-block;
+	width: 28.125em;
+	border-radius: 14.6875em;
+	position: relative;
+	margin-top: 6.25em;
 
 .fulldiv {
 	background-color: #E6E2BA;
