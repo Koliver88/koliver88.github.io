@@ -26,8 +26,9 @@ p, li {
 
 }
 
-body {
-	line-height: 30px;
+p {
+	line-height: 1.875em;
+	font-size: 2.25em;
 }
 
 /* Navigation Styling */
@@ -36,50 +37,54 @@ body {
 nav li {
 	display: inline-block;
 	list-style: none;
-	margin: 30px 30px;
-	padding: 5px 5px;
+	margin: 1.875em 1.875em;
+	padding: 0.3125em 0.3125em;
 	position: relative;
 
 
 }
 
+nav ul {
+	width: 81em;
+}
+
 .logo {
 
-	width: 269px 
+	width: 18.5em; 
 }
 
 header {
-	width: 1056px;
+	width: 66em;
 	margin: 0 auto;
 }
 
 footer li {
 	display: inline-block;
-	font-size: 12px;
+	font-size: 0.75em;
 	list-style: none;
-	margin: 15px 100px;
+	margin: 0.9375em 6.25em;
 	padding: 0 0;
 	background: rgba(255,255,255,.5);
-	border-radius: 25px;
+	border-radius: 1.5625em;
 }
 
 footer {
-	width: 1000px;
+	width: 62.5em;
 	margin: 0 auto;
 
 }
 
 .photocredit {
 	display: inline-block;
-	font-size: 12px;
+	font-size: 0.75em;
 	list-style: none;
 	padding: 0 0;
 	background: rgba(255,255,255,.5);
-	border-radius: 25px;
-	width: 275px;
+	border-radius: 1.5625em;
+	width: 17.1875em;
 	margin: 0 auto;
-	margin-left: 324px;
-	margin-bottom: 20px;
+	margin-left: 20.25em;
+	margin-bottom: 1.25em;
 }
 
 /* first frame */
@@ -121,11 +126,19 @@ a.logo:hover {
 
 }
 .blankspace {
-	margin-top: 100px;
-	margin-bottom: 518px;
-	margin-left: 150px;
-	margin-right: 150px;
-	padding: 150px;
+	margin-top: 6.25em;
+	margin-bottom: 32.375em;
+	margin-left: 9.375em;
+	margin-right: 9.375em;
+	padding: 9.375em;
+}
+
+.footerfix {
+	margin-left: 8em;
+}
+
+.photocredfix {
+	margin-left: 10em;
 }
 
 
@@ -138,47 +151,47 @@ a.logo:hover {
 
 .fulldiv {
 	background-color: #E6E2BA;
-	border-radius: 20px;
+	border-radius: 1.25em;
 
 }
 
 .bio h1 {
 	text-align: center;
 	text-decoration: underline;
-	margin-bottom: 100px;
-	padding: 10px;
-	border: 10px;
+	margin-bottom: 6.25em;
+	padding: 0.625em;
+	border: 0.625em;
 	background-color: ;
 }
 
 
 .bioimage {
 	display: inline-block;
-	width: 450px;
-	border-radius: 235px;
+	width: 28.125em;
+	border-radius: 14.6875em;
 	position: relative;
-	margin-top: 100px;
+	margin-top: 6.25em;
 
 }
 
 .bioparagraph {
-	padding: 110px;
-	margin-top: 139px;
+	padding: 6.875em;
+	margin-top: 8.6875em;
 
 }
 
 /* My Life.html styling */
 
 .mylife {
-	/*background-image: url("../img/bluewood.png");*/
-	background-color: #25636b;
-	background-image: url(http://www.transparenttextures.com/patterns/tileable-wood.png);
+	
+	background-color: ;
+	background-image: url();
 
 }
 /* Resume.html styling*/  
 
 .resume {
-	background: #95C4B9;
+	background:;
 }
 
 
@@ -194,7 +207,7 @@ a.logo:hover {
 		background-position: 30% 100%;
 	}
 	.nav li {
-		margin: -1px 30px
+		margin: -1px 1.875em;
 	}
 	ul {
 		padding-left: 1.25em; 
@@ -206,13 +219,8 @@ a.logo:hover {
 		padding: 0.625em 0.3125em;
 	}
 
-	.logo {
-		width: 232px;
-		padding: 0 90px;
-	}
-
 	.footerfix {
-		margin-left: 15.45em;
+		margin-left: 16.45em;
 		margin-top: 0.75em;
 	}
 
@@ -246,9 +254,11 @@ a.logo:hover {
 
 }
 
-@media (min-width: 1px) and (max-width: 1046px)  {
+@media (min-width: 1px) and (max-width: 995px)  {
 
-.logo {
+
+
+/*.logo {
 	width: 179px;
 	padding: 0 38px;
 }
@@ -268,32 +278,15 @@ nav ul {
 
 }
 
-/*.home */li {
+li {
 	margin-left: 3em;
 	margin-right: 7em;
-}
+}*/
 
 
-}
 
-@media (min-width: 1px) and (max-width: 640px)  {
 
-ul {
-	font-size: 1.5em;
-}
 
-.home {
-	margin: 0;
-	padding: 1em;
-}
-
-.footerfix {
-  margin-left: 18.45em;
-}
-
-nav {
-	margin: 
-}
 }
 
 
