@@ -183,11 +183,16 @@ a.logo:hover {
 /* My Life.html styling */
 
 .mylife {
-	
-	background-color: ;
-	background-image: url();
+	background-image: url("../img/tealwood.jpg");
 
 }
+
+.fulldiv {
+	background-color: #E6E2BA;
+	border-radius: 1.25em;
+}
+
+
 /* Resume.html styling*/  
 
 .resume {
