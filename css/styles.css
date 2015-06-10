@@ -208,11 +208,12 @@ a.logo:hover {
 
 	.logo {
 		width: 232px;
-		padding: 34px 90px;
+		padding: 0 90px;
 	}
 
 	.footerfix {
-		margin-left: 15.45em
+		margin-left: 15.45em;
+		margin-top: 0.75em;
 	}
 
 	/* first frame */
@@ -223,7 +224,7 @@ a {
 
 	/*height: 1em;*/
 	line-height: 1em;
-	padding: 1em;
+	/*padding: 1em;*/
 	text-decoration: none;
 	text-transform: uppercase; 
 
@@ -241,19 +242,38 @@ a:hover {
 
 a.logo:hover {
 	border-bottom: 0;
-	height: .75em;
 }
 
 }
 
-@media (min-width: 1px) and (max-width: 1500px)  {
+@media (min-width: 1px) and (max-width: 1046px)  {
 
-/*.home {
+.logo {
+	width: 179px;
+	padding: 0 38px;
+}
 
-	background-position: 40% 100%, center;
+nav {
+	width: 833px;
+	margin-left: 8em;
+
+}
+
+nav ul {
+	margin: 8em;
+}
+
+.footerfix {
+	margin-left: 10.45em;
+
+}
+
+.home li {
+	margin-left: 3em;
+	margin-right: 7em;
+}
 
 
-	}*/
 
 
 }
