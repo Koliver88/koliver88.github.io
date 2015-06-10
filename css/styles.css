@@ -268,13 +268,41 @@ nav ul {
 
 }
 
-.home li {
+/*.home */li {
 	margin-left: 3em;
 	margin-right: 7em;
 }
 
 
-
-
 }
+
+@media (min-width: 1px) and (max-width: 640px)  {
+
+ul {
+	font-size: 1.5em;
+}
+
+.home {
+	margin: 0;
+	padding: 1em;
+}
+
+.footerfix {
+  margin-left: 18.45em;
+}
+
+nav {
+	margin: 
+}
+}
+
+
+
+
+
+
+
+
+
+
 
