@@ -153,16 +153,6 @@ a.logo:hover {
 
 }
 
-.bio h1 {
-	text-align: center;
-	text-decoration: underline;
-	margin-bottom: 6.25em;
-	padding: 0.625em;
-	border: 0.625em;
-	background-color: ;
-}
-
-
 .bioimage {
 	display: inline-block;
 	width: 28.125em;
@@ -180,13 +170,18 @@ a.logo:hover {
 
 /* My Life.html styling */
 
-.equestrian {
-
-}
-
 .mylife {
 	background-image: url("../img/tealwood.jpg");
 
+}
+
+.fulldiv {
+	background-color: #E6E2BA;
+	border-radius: 1.25em;
+}
+
+h2 {
+	margin: 3em;
 }
 
 .chaiimage {
@@ -194,14 +189,24 @@ a.logo:hover {
 	width: 28.125em;
 	border-radius: 14.6875em;
 	position: relative;
-	margin-top: 6.25em;
-
-.fulldiv {
-	background-color: #E6E2BA;
-	border-radius: 1.25em;
+	margin-top: 9.25em;
 }
 
+.coopimage {
+	display: inline-block;
+	width: 28.125em;
+	border-radius: 14.6875em;
+	position: relative;
+	margin-top: 9.25em;
+}
 
+.huntingimage {
+	display: inline-block;
+	width: 28.125em;
+	border-radius: 14.6875em;
+	position: relative;
+	margin-top: 9.25em;
+}
 /* Resume.html styling*/  
 
 .resume {
