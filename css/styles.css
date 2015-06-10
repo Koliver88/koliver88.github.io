@@ -220,7 +220,7 @@ h2 {
 }
 
 .resumebody {
-	margin-left: 6em;
+	margin-left: 
 }
 
 
@@ -280,10 +280,19 @@ a.logo:hover {
 
 @media (min-width: 1px) and (max-width: 995px)  {
 
+nav ul {
+	padding: 0 0;
+	width: 21.875em;
+}
 
+.footerfix {
+	margin-left: 0;
 
+}
 
-
+.photocredfix {
+	margin-left: -8em;
+}
 }
 
 
